@@ -19,7 +19,7 @@ class HoverCounter extends Component {
         <div className="HoverCounter">
          <button onClick={this.increment} className="counter">+</button>
          <button onClick={this.decrement} className="counter">-</button>
-         <h2>{this.state.count}</h2>
+         <h2 style="color:red">{this.state.count}</h2>
         </div>
       );
     }
